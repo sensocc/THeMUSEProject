@@ -1,0 +1,336 @@
+body {
+    background-image: url("./img/background1.jpg");
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(109, 184, 255);
+    background-color: rgb(5, 5, 77);
+    -webkit-text-stroke-color: rgb(57, 130, 248);
+    -webkit-text-stroke-width: 1px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 45px;
+    color: rgb(50, 204, 193);
+    -webkit-text-stroke-color: rgb(8, 52, 123);
+    -webkit-text-stroke-width: 1px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+#demoText {
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+}
+
+.btn {
+    background-color: rgb(5, 5, 77);
+    color: rgb(109, 184, 255);
+    padding: 16px;
+    -webkit-text-stroke-color: rgb(109, 184, 255);
+    -webkit-text-stroke-width: 1px;
+    font-size: 45px;
+    border: none;
+    outline: none;
+    width: 505px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(5, 5, 77);
+    min-width: 160px;
+    width: 505px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    -webkit-text-stroke-color: rgb(28, 96, 161);
+    -webkit-text-stroke-width: 1px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 35px;
+    border: 3px solid rgb(28, 96, 161);
+    border-radius: 5px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.btn:hover, .dropdown:hover .btn {
+    background-color: black;
+    color: black;
+}
+
+.ContF {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: rgb(5, 5, 77);
+    height: 125px;
+}
+
+.ContF h1:hover {
+    color: rgb(5, 5, 77);
+}
+
+.text {
+    color: rgb(109, 184, 255);
+    background-color: rgba(5, 5, 77, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    border: 3px solid rgb(28, 96, 161);
+    border-radius: 15px;
+    width: 590px;
+}
+
+.texts {
+    display: flex;
+    justify-content: center;
+}
+
+#Ge01 {
+    background-image: url("./img/Rock.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(177, 85, 24);
+}
+
+#Ge02 {
+    background-image: url("./img/Punk.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(197, 81, 156);
+}
+
+#Ge03 {
+    background-image: url("./img/hipHop.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(239, 229, 50);
+}
+
+#Ge04 {
+    background-image: url("./img/Metal.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+#Ge05 {
+    background-image: url("./img/Reggae.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(21, 189, 40);
+}
+
+#Ge06{
+    background-image: url("./img/RnB.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(252, 103, 53);
+}
+
+#Ge07 {
+    background-image: url("./img/pop.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(90, 159, 224);
+}
+
+#Ge08 {
+    background-image: url("./img/Electronic.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(0, 217, 255);
+}
+
+#Ge09 {
+    background-image: url("./img/OtherM.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(20, 10, 10);
+}
+
+#Co01 {
+    background-image: url("./img/USA.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+}
+
+#Co02 {
+    background-image: url("./img/Russia.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(8, 0, 255);
+}
+
+#Co03 {
+    background-image: url("./img/Germany.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(255, 247, 0);
+}
+
+#Co04 {
+    background-image: url("./img/UK.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(0, 0, 180);
+}
+
+#Co05 {
+    background-image: url("./img/Japan.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+}
+
+#Co06 {
+    background-image: url("./img/Brazil.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(6, 172, 0);
+}
+
+#Co07  {
+    background-image: url("./img/Norway.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(0, 5, 100);
+}
+
+#Co08 {
+    background-image: url("./img/OtherC.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(169, 169, 169);
+}
+
+#Ye01 {
+    background-image: url("./img/2020's.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(251, 255, 134);
+}
+
+#Ye02 {
+    background-image: url("./img/2010's.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(215, 183, 245);
+}
+
+#Ye03 {
+    background-image: url("./img/2000s.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(64, 50, 187);
+}
+
+#Ye04 {
+    background-image: url("./img/90s.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(209, 59, 255);
+}
+
+#Ye05 {
+    background-image: url("./img/80s.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(253, 255, 196);
+}
+
+#Ye06 {
+    background-image: url("./img/70s.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(255, 160, 35);
+}
+
+#Ye07 {
+    background-image: url("./img/Mediveal.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(122, 146, 136);
+}
+
+#Ye08 {
+    background-image: url("./img/FIrstCivilisatins.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(41, 34, 34);
+}
+
+#Ye09 {
+    background-image: url("./img/OtherY.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(62, 66, 80);
+}
+
+#Ot01 {
+    background-image: url("./img/MusIns.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(66, 53, 39);
+}
+
+#Ot02 {
+    background-image: url("./img/MusSou.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(0, 255, 255);
+}
+
+#Ot03 {
+    background-image: url("./img/MusPro.jpg");
+    background-size: contain;
+    -webkit-text-stroke-color: rgb(162, 51, 165);
+}
+
+#Ot04 {
+    background-image: url("./img/MusGam.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(203, 20, 0);
+}
+
+#Ot05 {
+    background-image: url("./img/MusTec.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(185, 213, 214);
+}
+
+#Ot06 {
+    background-image: url("./img/VinnCas.jpg");
+    background-size: cover;
+    -webkit-text-stroke-color: rgb(134, 129, 92);
+}
+
+#Sname, #MPlayer {
+    color: white;
+    font-size: 25px;
+}
+
+img {
+    width: 535px;
+    height: 400px;
+    border: 2px solid rgb(101, 193, 255);
+    border-radius: 15px;
+}
+
+.TrackPl {
+    border: 9px solid black;
+    border-radius: 10px;
+    width: 210px;
+}
+
+#TrackPl {
+    display: flex;
+    justify-content: center;
+}
+
+#Scover {
+    width: 200px;
+    height: 200px;
+}
